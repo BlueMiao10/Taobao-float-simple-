@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Taobao</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        .clearfix::after {
+            content: "";
+            display: block;
+            clear: both;
+        }
+
+        ul,
+        ol {
+            list-style: none;
+        }
+
+        .nav1>li {
+            float: left;
+            padding: 4px 0.5em;
+        }
+
+        .nav2>li {
+            float: right;
+            padding: 4px 0.5em;
+        }
+
+        .a {
+            color: tomato;
+        }
+
+        .logo>img {
+            float: left;
+            height: 120px;
+            margin-top: 20px;
+        }
+
+        .search-bar>img {
+            width: 700px;
+            float: left;
+            margin-left: 60px;
+            margin-top: 20px;
+        }
+
+        .qr>img {
+            float: right;
+            height: 160px;
+        }
+
+        .search-bar>ul {
+            width: 700px;
+            float: left;
+            margin-left: 60px;
+        }
+
+        .search-bar>ul>li {
+            float: left;
+            padding: 4px 0.75em;
+        }
+
+        .home>img {
+            max-width: 100%;
+        }
+
+        .image {
+            width: 260px;
+            height: 260px;
+            margin-right: 25px;
+            float: left;
+        }
+
+        .image {
+            max-width: 100%;
+            vertical-align: bottom;
+            overflow: hidden;
+        }
+
+        .nav3 {
+            margin-left: 120px;
+        }
+
+        .nav3>li {
+            float: left;
+            padding: 4px 1em;
+        }
+
+        .copyright {
+            float: right;
+            margin-right: 120px;
+            padding: 4px 1em;
+        }
+
+        .search {
+            width: 1200px;
+            margin-right: auto;
+            margin-left: auto;
+        }
+
+        .imageList {
+            width: 1400px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        .x {
+            margin-right: -25px;
+        }
+
+        .foot {
+            width: 1400px;
+            background-color: rgb(234, 232, 235);
+            width: 1640px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        .page {
+            width: 1640px;
+            background-color: rgb(234, 232, 235);
+        }
+    </style>
+</head>
+
+<body>
+    <header class="clearfix">
+        <ul class="nav1">
+            <li>中国大陆</li>
+            <li class="a">亲，请登录</li>
+            <li>免费注册</li>
+            <li>手机逛淘宝</li>
+        </ul>
+
+        <ul class="nav2">
+            <li>我的淘宝</li>
+            <li>购物车</li>
+            <li>收藏夹</li>
+            <li>商品分类</li>
+            <li>免费开店</li>
+            <li>千牛卖家中心</li>
+            <li>联系客服</li>
+            <li>网络导航</li>
+        </ul>
+    </header>
+    <div class="page">
+        <div class="clearfix search">
+            <aside class="logo">
+                <img src="images/image1.png" alt="logo">
+            </aside>
+
+            <aside class="qr">
+                <img src="images/image2.png" alt="二维码">
+            </aside>
+            <main class="search-bar">
+                <img src="images/image3.png" alt="搜索框">
+                <ul>
+                    <li>新款连衣裙</li>
+                    <li>四件套</li>
+                    <li>潮流外套</li>
+                    <li>新款男鞋</li>
+                    <li>时尚女包</li>
+                    <li>沙发</li>
+                    <li>行车记录仪</li>
+                    <li>儿童玩具</li>
+                </ul>
+            </main>
+        </div>
+        <div class="home">
+            <img src="images/image4.png" alt="主页">
+        </div>
+
+        <div class="imageList">
+            <div class="x  clearfix">
+                <div class="image"><img src="images/image5.png" alt="主页"></div>
+                <div class="image"><img src="images/image6.png" alt="主页"></div>
+                <div class="image"><img src="images/image7.png" alt="主页"></div>
+                <div class="image"><img src="images/image8.png" alt="主页"></div>
+                <div class="image"><img src="images/image9.png" alt="主页"></div>
+            </div>
+        </div>
+    </div>
+    <footer class="clearfix foot">
+        <ul class="nav3">
+            <li>关于淘宝</li>
+            <li>廉政中心</li>
+            <li>营销中心</li>
+            <li>联系客服</li>
+        </ul>
+        <div class="copyright">&copy;版权所有</div>
+    </footer>
+</body>
+
+</html>
