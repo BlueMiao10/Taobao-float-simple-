@@ -1,0 +1,106 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+img {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.clearfix::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+ul,
+ol {
+  list-style: none;
+}
+
+li {
+  float: left;
+  padding: 4px 0.5em;
+}
+
+.nav2 > li {
+  float: right;
+  padding: 4px 0.5em;
+}
+
+.a {
+  color: tomato;
+}
+
+.logo > a > img {
+  float: left;
+  height: 120px;
+  margin-top: 20px;
+}
+
+.search-bar > img {
+  width: 700px;
+  float: left;
+  margin-left: 60px;
+  margin-top: 20px;
+}
+
+.qr > img {
+  float: right;
+  height: 160px;
+}
+
+.search-bar > ul {
+  width: 700px;
+  float: left;
+  margin-left: 100px;
+}
+
+.image {
+  vertical-align: top;
+  overflow: hidden;
+  width: 260px;
+  height: 260px;
+  margin-right: 25px;
+  float: left;
+}
+
+.nav3 {
+  margin-left: 120px;
+}
+
+.copyright {
+  float: right;
+  margin-right: 120px;
+  padding: 4px 1em;
+}
+
+.search {
+  width: 1200px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.imageList {
+  width: 1400px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.x {
+  margin-right: -25px;
+}
+
+.foot {
+  background-color: rgb(234, 232, 235);
+  width: 1640px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.page {
+  width: 1640px;
+  background-color: rgb(234, 232, 235);
+}
